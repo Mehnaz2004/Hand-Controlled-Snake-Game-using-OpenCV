@@ -1,5 +1,4 @@
-opencv-python
+opencv-python-headless
 mediapipe
 streamlit
-pygame
 numpy
