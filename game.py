@@ -7,7 +7,6 @@ import random
 
 # Initialize Mediapipe hand tracking
 mp_hands = mp.solutions.hands
-mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 
 # Game settings
@@ -75,9 +74,7 @@ def main():
                         balls.append(generate_ball())
                 
                 for i in range(len(snake_trail) - 1):
-                    cv2.line(frame, snake_trail[i], snake_trail[i + 1], (255, 255, 255), 2)
-                
-                mp_drawing.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
+                    cv2.line(frame, snake_trail[i], snake_trail[i + 1], (0, 255, 0), 5)  # Green and thicker
         
         current_time = time.time()
         balls = [ball for ball in balls if current_time - ball["spawn_time"] < BALL_LIFETIME]
