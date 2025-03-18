@@ -23,7 +23,7 @@ Play the classic **Snake game** using just your hand gestures! This game uses **
 ## 🎮 How to Play?
 1️⃣ **Run the game:**  
 ```sh
-streamlit run GestureSnakeGame.py
+streamlit run game.py
 ```
 2️⃣ **Start the game** by clicking **"Start Game"** in the sidebar.  
 3️⃣ **Control the Snake with Your Hand:** Move your hand in front of the camera to navigate the snake.  
@@ -39,8 +39,8 @@ streamlit run GestureSnakeGame.py
 ## 🛠️ Setup & Installation
 1️⃣ **Clone the repository:**
 ```sh
-  git clone https://github.com/MehnazAli2004/PennyWise.git
-  cd PennyWise
+  git clone https://github.com/MehnazAli2004/Hand-Controlled-Snake-Game-using-OpenCV.git
+  cd Hand-Controlled-Snake-Game-using-OpenCV
 ```
 
 2️⃣ **Install dependencies:**
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 3️⃣ **Run the game:**
 ```sh
-streamlit run GestureSnakeGame.py
+streamlit run game.py
 ```
 
 4️⃣ **Grant camera access** when prompted and start playing!
