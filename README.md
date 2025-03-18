@@ -1,4 +1,4 @@
-# Gesture Controlled Snake Game - README
+# Gesture Controlled Snake Game
 
 ## 📌 Introduction
 Play the classic **Snake game** using just your hand gestures! This game uses **OpenCV** and **MediaPipe** to track hand movements via a webcam, allowing you to guide the snake and collect points.
